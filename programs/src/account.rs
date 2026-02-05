@@ -104,11 +104,6 @@ impl WeeklyPot {
         self.prize = 0;
         self.start_time = start_time;
     }
-    pub fn update(&mut self, start_time: i64) {
-        self.count = 0;
-        self.prize = 0;
-        self.start_time = start_time;
-    }
 }
 
 impl Default for MonthlyPot {
